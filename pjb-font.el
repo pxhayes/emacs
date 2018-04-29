@@ -142,7 +142,7 @@ RETURN: A list of unique property lists containing the selected keys
 
 
 
-(defun get-independant-font-parts (pattern &key foundry family weight
+(defun* get-independant-font-parts (pattern &key foundry family weight
                                              slant width style
                                              pixel-size point-size
                                              resolution-x resolution-y
